@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <!--Imagen-->
+    <img src="archivos/17060.jpg" alt="Imagen de ejemplo" width="1000px" height="500px">
+
+
+    <!--imagenes combinadas-->
+    <figure>
+        <img src="archivos/fondo de pantalla 1.jpg" alt="" width="300px" height="200px">
+        <img src="archivos/fondo de pantalla 2.jpg" alt="" width="300px" height="200px">
+        <img src="archivos/fondo de pantalla 6.jpg" alt="" width="300px" height="200px">
+        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eaque ut maiores quisquam est
+             blanditiis, adipisci veniam fuga, delectus omnis alias 
+            iusto fugiat quo ducimus dolor, aliquid nisi vero quas?</figcaption><!--Agrega texto a las imagenes-->
+    </figure>
+
+    <!--Videos-->
+    <!--controls = controles de agrandar pantalla o extender, quitar volumen
+    autoplay = al precionar al video se reproduce 
+    lopp = se reproduce en automatico y cuando se acaba vuelve a reprodusirce
+    -->
+    <video src="" controls autoplay lopp poster=""></video>
+
+    <!--Subtitulos en video-->
+    <video controls>
+        <source src=".mp4"> 
+        <source src=".avi"> 
+        <source src=".avi"> 
+        <track src="subs-es.vtt" srclang="es" label="Español" default>
+        <track src="subs-es.vtt" srclang="es" label="Español">
+        <track src="subs-es.vtt" srclang="es" label="Español">
+    </video>
+
+    <!--Videos de youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2tSfK2IciPA"></iframe>
+
+
+    <!--Audio-->
+    <audio src="" controls loop autoplay></audio>
+
+</body>
+</html>
